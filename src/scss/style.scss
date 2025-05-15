@@ -1,0 +1,17 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 2rem;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+nav {
+  margin-bottom: 2rem;
+  a {
+    margin-right: 1rem;
+    text-decoration: none;
+    color: blue;
+    &:hover { text-decoration: underline; }
+  }
+}
