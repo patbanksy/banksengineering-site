@@ -2,16 +2,37 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Contact</title>
+  <title>Home</title>
+  <link href="https://fonts.googleapis.com/css2?family=Funnel+Display:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="contact.html">Contact</a>
-  </nav>
+  <header>
+    <img src="./images/bankslogo.svg" alt="Site Logo" style="height: 120px;" />
+    <nav>
+      <a href="index.html">HOME</a>
+      <a href="about.html">ABOUT</a>
+      <a href="contact.html">CONTACT</a>
+    </nav>
+  </header>
   <main>
-    <h1>Contact Banks Engineering</h1>
+    <h1>Contact Us</h1>
+    <form action="https://formspree.io/f/mzzrwbrp" method="POST">
+      <input type="text" name="_gotcha" style="display:none" />
+      <input type="text" name="name" placeholder="Your Name" required /><br />
+      <input type="email" name="email" placeholder="Your Email" required /><br />
+      <textarea name="message" placeholder="Your Message" required></textarea><br />
+      <button type="submit">Send</button>
+    </form>
+
+    <div id="thank-you" style="display: none; margin-top: 2rem; color: green;">
+      Thank you for your message! We'll get back to you soon.
+    </div>
   </main>
+
+  <footer>
+    © 2025 Banks Engineering Pty Ltd.
+  </footer>
+
+  <script src="./js/contact.js"></script>
 </body>
 </html>
