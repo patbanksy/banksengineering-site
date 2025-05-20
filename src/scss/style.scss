@@ -54,6 +54,15 @@ header {
   }
 }
 
+.hero-header {
+  background-image: url('../images/pumped-hydro-upper-res-banner.jpg');
+  background-size: cover;
+  background-position: left;
+  padding: 4rem 2rem;
+  color: white;
+  text-align: center;
+}
+
 main {
   margin-top: 2rem;
 }
